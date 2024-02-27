@@ -13,6 +13,7 @@
 		6E56AD8D2B8E332700FF42BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E56AD8B2B8E332700FF42BF /* Main.storyboard */; };
 		6E56AD8F2B8E332900FF42BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E56AD8E2B8E332900FF42BF /* Assets.xcassets */; };
 		6E56AD922B8E332900FF42BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E56AD902B8E332900FF42BF /* LaunchScreen.storyboard */; };
+		6E56AD9A2B8E339800FF42BF /* CollectionViewPagingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E56AD992B8E339800FF42BF /* CollectionViewPagingLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6E56AD8E2B8E332900FF42BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E56AD912B8E332900FF42BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E56AD932B8E332A00FF42BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E56AD992B8E339800FF42BF /* CollectionViewPagingLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewPagingLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				6E56AD852B8E332700FF42BF /* AppDelegate.swift */,
 				6E56AD872B8E332700FF42BF /* SceneDelegate.swift */,
+				6E56AD992B8E339800FF42BF /* CollectionViewPagingLayout.swift */,
 				6E56AD892B8E332700FF42BF /* ViewController.swift */,
 				6E56AD8B2B8E332700FF42BF /* Main.storyboard */,
 				6E56AD8E2B8E332900FF42BF /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E56AD9A2B8E339800FF42BF /* CollectionViewPagingLayout.swift in Sources */,
 				6E56AD8A2B8E332700FF42BF /* ViewController.swift in Sources */,
 				6E56AD862B8E332700FF42BF /* AppDelegate.swift in Sources */,
 				6E56AD882B8E332700FF42BF /* SceneDelegate.swift in Sources */,
